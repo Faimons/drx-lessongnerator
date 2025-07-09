@@ -1,4 +1,4 @@
-﻿[import React, { useState, useEffect, useRef } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 import { ChevronLeft, ChevronRight, Play, Pause, Volume2, VolumeX, Home, RotateCcw } from 'lucide-react';
 
 // Lesson Data Structure (Ihre Daten)
@@ -525,4 +525,4 @@ function ImportanceSlide({ slide }) {
       </div>
     </div>
   );
-}]
+}
